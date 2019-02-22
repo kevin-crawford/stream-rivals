@@ -1,0 +1,41 @@
+.top_nav {
+	background: purple;
+	color: white;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+nav {
+	display: inline-flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+}
+nav h1 {
+	margin-left: 10px;
+}
+#player-controls {
+	display: inline-flex;
+	margin-right: 15px;
+	justify-content: center;
+}
+
+#player-list {
+	align-items: center;
+	display: flex;
+}
+
+#player-list li {
+	margin: 0 10px;
+}
+
+#addPlayer {
+	padding: 5px;
+  border-radius: 5px;
+}
+
+nav li {
+	list-style: none;
+	display: inline-flex;
+}

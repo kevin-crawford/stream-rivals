@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body, .App {
+	margin: 0;
+	height: 100%;
+	background: #2c3539;
+}
+
+
+
+#home-page {
+	display: inline-flex;
+}
+
+/* #player-list {
+	width: 100%;
+	background: grey;
+	position: fixed;
+	z-index: 1;
+	bottom: 0;
+	overflow-x: hidden;
+} */
+
+#chatroom {
+	width: 300px;
+	background: grey;
+	border: 1px solid black;
+	z-index: 1;
+	right: 0;
+	overflow-x: hidden;
+	position: fixed;
+}
